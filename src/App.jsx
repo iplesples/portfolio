@@ -3,13 +3,20 @@ import { useState } from 'react'
 function App() {
 
   return (
-    <>
-      <div className='h-screen w-screen bg-blue-400 text-5xl p-52'>
-        <h1>hallo gue bobhy, welcome to my site</h1>
-        <h1 className='mt-3'>beli koin murah</h1>
-        <button className='bg-amber-400 p-4 hover:bg-amber-950'>klik disini</button>
+    <> 
+    <div className="min-h-screen bg-gradient-to-b from-blue-600 to-blue-900 text-white flex flex-col items-center justify-center px-6">
+      <h1 className="text-4xl md:text-6xl font-bold text-center mb-4">
+        Hallo saya bobhy
+      </h1>
+      <p className="text-lg md:text-xl text-center max-w-2xl mb-6">
+        I am a passionate full-stack web developer who loves to build modern and efficient applications.
+      </p>
+      <div>
+        <button className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-6 py-3 rounded-xl shadow-md">
+          View My Work
+        </button>
       </div>
-      
+    </div>     
     </>
   )
 }
